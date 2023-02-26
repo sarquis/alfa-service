@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AlfaController {
 
     @GetMapping
-    public String salvarArquivo() {
-	return "MS-ALFA-RESPONSE";
+    public String executar() {
+	return "MS-ALFA-RESPOSTA";
     }
 }
