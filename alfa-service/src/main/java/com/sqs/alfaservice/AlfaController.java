@@ -1,14 +1,12 @@
-package com.sqs.alfaservice.controller;
+package com.sqs.alfaservice;
 
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/")
 public class AlfaController {
 
-    @GetMapping
+    @GetMapping("/")
     public String executar() {
 	return "MS-ALFA-RESPOSTA";
     }
