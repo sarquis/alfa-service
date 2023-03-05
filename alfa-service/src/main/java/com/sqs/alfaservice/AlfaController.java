@@ -8,6 +8,6 @@ public class AlfaController {
 
     @GetMapping("/")
     public String executar() {
-	return "MS-ALFA-RESPOSTA";
+	return "MS-ALFA-RESPOSTA 0";
     }
 }
